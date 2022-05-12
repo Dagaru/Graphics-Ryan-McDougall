@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\fogShader.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\fogShader.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderRim.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderRim.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderGeoText.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderGeoText.geom">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderGeoText.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderSkybox.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderSkybox.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderReflection.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderReflection.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderCustom.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\res\shaderCustom.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\res\monkey3.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\Sword.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\lamp.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+    <Object Include="..\res\Axe.obj">
+      <Filter>Resource Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\skybox\Back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\skybox\Bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\skybox\Front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\skybox\Left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\res\skybox\Right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
